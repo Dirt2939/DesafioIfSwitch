@@ -22,7 +22,7 @@ public class DesafioSwitchExer4 {
         System.out.println("Digite sua nota do Enem: ");
         double nota = ler.nextDouble();
         
-        if (nota >= 0 && nota <= 40) {
+        if (nota >= 0 && nota <= 49) {
         
             System.out.println("Insuficiente");
             
@@ -48,7 +48,7 @@ public class DesafioSwitchExer4 {
         
         else {
         
-            System.out.println("Deu erro");
+            System.out.println("Nota inválida");
             
         }
         

@@ -24,7 +24,7 @@ public class DesafioSwitchExer6 {
         double baseMaior = ler.nextDouble();
         double altura = ler.nextDouble();
         
-        if (baseMenor > 0 && baseMaior > 0) {
+        if (baseMenor > 0 && baseMaior > 0 && altura > 0) {
         
             double area = ((baseMaior + baseMenor) * altura) / 2;
             
@@ -34,7 +34,8 @@ public class DesafioSwitchExer6 {
         
         else {
         
-            System.out.println("A base menor e maior precisa ser maior que zero");
+            System.out.println("A base menor, a base maior e a altura precisam "
+                    + "ser maiores que zero");
             
         }
         

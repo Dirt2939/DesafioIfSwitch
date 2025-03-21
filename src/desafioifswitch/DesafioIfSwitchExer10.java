@@ -71,7 +71,7 @@ public class DesafioIfSwitchExer10 {
                 break;
 
             default:
-                System.out.println("Deu erro");
+                System.out.println("Mês inválido");
                 break;
             
         }

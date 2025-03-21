@@ -42,7 +42,7 @@ public class DesafioIfSwitch {
             
         }
         
-        else if (idade >= 14 && idade <17) {
+        else if (idade >= 14 && idade <= 17) {
         
             System.out.println("Categoria: Juvenil B");
             

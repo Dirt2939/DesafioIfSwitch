@@ -39,7 +39,7 @@ public class DesafioIfSwitchExer3 {
         
         else {
         
-            System.out.println("Deu erro");
+            System.out.println("Horario errado");
             
         }
         

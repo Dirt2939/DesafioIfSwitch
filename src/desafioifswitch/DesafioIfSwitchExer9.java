@@ -71,7 +71,7 @@ public class DesafioIfSwitchExer9 {
                 break;
 
             default:
-                System.out.println("Deu erro");
+                System.out.println("Número inválido");
                 break;
 
         }

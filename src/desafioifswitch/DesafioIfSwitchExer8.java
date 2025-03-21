@@ -49,7 +49,7 @@ public class DesafioIfSwitchExer8 {
                 System.out.println("Hoje é Domingo");
                 break;
                 
-            default: System.out.println("Deu erro");
+            default: System.out.println("Número inválido");
 
         }
 

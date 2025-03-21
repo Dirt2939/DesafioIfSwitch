@@ -16,7 +16,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author aluno.saolucas
+ * @author Rafael
  */
 public class DesafioSwitchExer5 {
     public static void main(String[] args) {
@@ -28,7 +28,7 @@ public class DesafioSwitchExer5 {
         int lado2 = ler.nextInt();
         int lado3 = ler.nextInt();
         
-        if (lado1 + lado2 > lado3) {
+        if (lado1 + lado2 > lado3 && lado1 + lado3 > lado2 && lado3 + lado2 > lado1) {
         
             if (lado1 == lado2 && lado2 == lado3) {
             
@@ -42,7 +42,7 @@ public class DesafioSwitchExer5 {
                 
             }
             
-            else if (lado1 != lado2 && lado2 != lado3 && lado1 != lado3) {
+            else {
             
                 System.out.println("É um triângulo escaleno.");
                 
